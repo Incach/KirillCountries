@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:id="@+id/all"
-        android:title="All" />
+        android:title="Все" />
     <item android:id="@+id/africa"
-        android:title="Africa" />
+        android:title="Африка" />
     <item android:id="@+id/americas"
-        android:title="Americas" />
+        android:title="Америка" />
     <item android:id="@+id/asia"
-        android:title="Asia" />
+        android:title="Азия" />
     <item android:id="@+id/europe"
-        android:title="Europe" />
+        android:title="Европа" />
     <item android:id="@+id/oceania"
-        android:title="Oceania" />
+        android:title="Океания" />
 </menu>

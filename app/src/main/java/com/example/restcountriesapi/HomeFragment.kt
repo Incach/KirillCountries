@@ -22,7 +22,7 @@ class HomeFragment(private val mainContext: Context, private val listener: Liste
     private lateinit var binding: HomeFragmentBinding
     private val countries: ArrayList<CountryData> = arrayListOf()
     private var displayCountries: ArrayList<CountryData> = arrayListOf()
-
+    private var regionru: String = ""
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -80,24 +80,44 @@ class HomeFragment(private val mainContext: Context, private val listener: Liste
 
     override fun onMenuItemClick(item: MenuItem?): Boolean {
         when (item?.title) {
-            "All" -> {
+            "Все" -> {
                 displayCountries.clear()
+                binding.btnShow.text = "Все"
                 countries.forEach {
                     displayCountries.add(it) }
+                binding.countryRecycler.adapter?.notifyDataSetChanged()
             }
-            "Africa" -> { filterByRegion("Africa") }
-            "Americas" -> { filterByRegion("Americas") }
-            "Asia" -> { filterByRegion("Asia") }
-            "Europe" -> { filterByRegion("Europe") }
-            "Oceania" -> { filterByRegion("Oceania") }
+            "Африка" -> { filterByRegion("Africa") }
+            "Америка" -> { filterByRegion("Americas") }
+            "Азия" -> { filterByRegion("Asia") }
+            "Европа" -> { filterByRegion("Europe") }
+            "Океания" -> { filterByRegion("Oceania") }
             else -> false
         }
 
         return true
     }
-
+    private fun ruregion(region: String): String {
+        if (region == "Africa"){
+            regionru="Африка"
+        }
+        if (region == "Americas"){
+            regionru="Америка"
+        }
+        if (region == "Asia"){
+            regionru="Азия"
+        }
+        if (region == "Europe"){
+            regionru="Европа"
+        }
+        if (region == "Oceania"){
+            regionru="Океания"
+        }
+        return regionru
+    }
     private fun filterByRegion(region: String) {
-        binding.btnShow.text = region
+        ruregion(region)
+        binding.btnShow.text = regionru
         displayCountries.clear()
         countries.forEach {
             if (it.getRegion() == region) {
