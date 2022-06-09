@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Eisenhorn/Desktop/kotlin/KirillCountries/app/src/main/res/layout/activity_main.xml" value="0.35185185185185186" />
+        <entry key="..\:/Users/Eisenhorn/Desktop/kotlin/KirillCountries/app/src/main/res/layout/country_card.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Eisenhorn/Desktop/kotlin/KirillCountries/app/src/main/res/layout/country_fragment.xml" value="0.35185185185185186" />
+        <entry key="..\:/Users/Noel/AndroidStudioProjects/RESTCountriesAPI/app/src/main/res/drawable/card_background.xml" value="0.22763157894736843" />
+        <entry key="..\:/Users/Noel/AndroidStudioProjects/RESTCountriesAPI/app/src/main/res/drawable/ic_outline_brightness_2_24.xml" value="0.22763157894736843" />
+        <entry key="..\:/Users/Noel/AndroidStudioProjects/RESTCountriesAPI/app/src/main/res/drawable/image_foreground.xml" value="0.22763157894736843" />
+        <entry key="..\:/Users/Noel/AndroidStudioProjects/RESTCountriesAPI/app/src/main/res/drawable/popup_menu.xml" value="0.22763157894736843" />
+        <entry key="..\:/Users/Noel/AndroidStudioProjects/RESTCountriesAPI/app/src/main/res/drawable/search_bar.xml" value="0.22763157894736843" />
+        <entry key="..\:/Users/Noel/AndroidStudioProjects/RESTCountriesAPI/app/src/main/res/drawable/shaded_background.xml" value="0.22763157894736843" />
+        <entry key="..\:/Users/Noel/AndroidStudioProjects/RESTCountriesAPI/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Noel/AndroidStudioProjects/RESTCountriesAPI/app/src/main/res/layout/adapter_fragment.xml" value="0.2741228070175439" />
+        <entry key="..\:/Users/Noel/AndroidStudioProjects/RESTCountriesAPI/app/src/main/res/layout/country_card.xml" value="0.4" />
+        <entry key="..\:/Users/Noel/AndroidStudioProjects/RESTCountriesAPI/app/src/main/res/layout/country_fragment.xml" value="0.264" />
+        <entry key="..\:/Users/Noel/AndroidStudioProjects/RESTCountriesAPI/app/src/main/res/layout/home_fragment.xml" value="0.21403508771929824" />
+        <entry key="..\:/Users/Noel/AndroidStudioProjects/RESTCountriesAPI/app/src/main/res/menu/menu_example.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">REST Countries API</string>
+    <string name="query_fields">name,topLevelDomain,alpha3Code,capital,subregion,region,population,borders,nativeName,currencies,languages,flags</string>
+    <string-array name="regions">
+        <item>All</item>
+        <item>Africa</item>
+        <item>Americas</item>
+        <item>Asia</item>
+        <item>Europe</item>
+        <item>Oceania</item>
+    </string-array>
+</resources>
